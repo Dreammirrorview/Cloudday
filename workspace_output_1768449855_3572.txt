@@ -1,0 +1,40 @@
+=== SuperNinja System Self-Diagnostic Check ===
+
+1. Checking Python Environment:
+Python 3.11.14
+
+2. Checking Available Tools:
+/usr/bin/node
+/usr/bin/npm
+
+3. Checking File System:
+total 80
+drwxr-xr-x 4 root root   108 Jan 15 03:49 .
+drwxr-xr-x 1 root root   177 Jan 15 04:03 ..
+drwxr-xr-x 4 root root    77 Jan  6 22:34 .agent_hooks
+-rw-r--r-- 1 root root 74733 Jan 15 03:40 cloud-storage-admin.html
+drwxr-xr-x 2 root root   154 Jan 15 04:04 outputs
+-rw-r--r-- 1 root root   967 Jan 15 04:04 todo.md
+
+4. Checking Running Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 1261512 48640 ?       Ssl  04:03   0:03 /usr/local/bin/daytona sleep infinity
+root          78  0.0  0.0   2912  1548 ?        S    04:03   0:00 sleep infinity
+root          80  0.0  0.0 1837708 15368 ?       Sl   04:03   0:00 /usr/local/lib/daytona-computer-use
+root          81  0.0  0.0  14008  9756 ?        S    04:03   0:00 python3 /tmp/daytona_repl_worker.py
+root         103  0.0  0.0  37192 31280 ?        S    04:03   0:00 /usr/bin/python3 /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
+root         106  0.0  0.0   4352  1028 ?        S    04:03   0:00 /usr/bin/bash
+root         107  0.0  0.0   4352  1028 ?        S    04:03   0:00 /usr/bin/bash
+root         110  0.0  0.0   4868  3092 ?        S    04:03   0:00 /usr/bin/bash
+root         123  0.0  0.0  45736 16204 ?        S    04:03   0:00 x11vnc -display :99 -forever -shared -rfbauth /root/.vnc/passwd -rfbport 5901 -o /var/log/x11vnc.log
+
+5. Checking Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           755Gi       114Gi        14Gi        72Mi       632Gi       641Gi
+Swap:             0B          0B          0B
+
+6. Checking Disk Space:
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         5.0G   69M  5.0G   2% /
+
+=== Diagnostic Check Complete ===
